@@ -1,0 +1,251 @@
+@font-face {
+  font-family: en;
+  src: url("../font/bpg_mrgvlovani_caps_2010 (1).ttf");
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header nav {
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  font-family: en;
+  text-transform: uppercase;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+}
+header nav div {
+  width: 1400px;
+  max-width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+header nav div .logo {
+  height: 40px;
+  margin: 0;
+}
+header nav div li {
+  display: inline-block;
+}
+header nav div li:hover .drop {
+  display: block;
+}
+header nav div li a {
+  text-decoration: 0;
+  color: rgba(0, 0, 0, 0.726);
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px;
+}
+header nav div li #port {
+  width: 150px;
+}
+header nav div li .drop {
+  position: absolute;
+  padding: 0 10px 10px 10px;
+  display: none;
+  width: 100px;
+  background-color: rgba(0, 0, 0, 0.377);
+}
+header nav div li .drop a {
+  display: block;
+  font-size: 15px;
+  padding-top: 0;
+}
+header .head {
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  margin-top: 50px;
+}
+header .head .head1 {
+  width: 1400px;
+  max-width: 100%;
+  margin: auto;
+  display: flex;
+}
+header .head .head1 img {
+  width: 30%;
+}
+header .head .head1 .head2 {
+  font-family: en;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .head .head1 .head2 div {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.288);
+  border: 2px solid white;
+  outline-style: solid;
+  outline-color: rgba(0, 0, 0, 0.288);
+  outline-width: 45px;
+  padding: 50px 0;
+  width: 90%;
+}
+header .head .head1 .head2 div H1 {
+  font-size: 50PX;
+}
+header .head .head1 .head2 div H3 {
+  text-transform: capitalize;
+  font-size: 25px;
+}
+
+.list {
+  width: 1400px;
+  max-width: 100%;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 15px;
+}
+.list li {
+  display: inline-block;
+  text-decoration: 0;
+}
+.list li a {
+  text-decoration: 0;
+  color: rgba(0, 0, 0, 0.726);
+  display: inline-block;
+  font-size: 25px;
+  text-transform: capitalize;
+  margin-right: 30px;
+  font-family: en;
+}
+.list li #all {
+  color: white;
+  padding: 5px 10px;
+  background-color: rgba(0, 0, 0, 0.726);
+}
+
+.designs {
+  width: 1400px;
+  max-width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: en;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 25px 0;
+}
+.designs .col-33 {
+  width: 33.333%;
+}
+.designs .col-33 .w-100 {
+  width: 100%;
+  height: 370px;
+}
+.designs .col-33 .col-100 {
+  padding: 15px;
+}
+.designs .col-33 #height {
+  height: 400px;
+}
+
+.myblog {
+  background-color: rgba(0, 0, 0, 0.288);
+  font-family: en;
+  text-transform: capitalize;
+}
+.myblog .myblog1 {
+  width: 1400px;
+  max-width: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 20px 0;
+}
+.myblog .myblog1 h1 {
+  padding-bottom: 20px;
+}
+.myblog .myblog1 .cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.myblog .myblog1 .cards .card {
+  width: 33.33%;
+  padding: 15px;
+}
+.myblog .myblog1 .cards .card .w-100 {
+  width: 100%;
+  height: 280px;
+}
+
+footer {
+  width: 1400px;
+  max-width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  padding: 20px 0;
+  text-transform: capitalize;
+  font-family: en;
+}
+footer li {
+  display: inline-block;
+}
+footer li a {
+  text-decoration: 0;
+  color: rgba(0, 0, 0, 0.726);
+  display: inline-block;
+  margin-left: 30px;
+}
+
+@media ( max-width:1000px ){
+  header nav div li a{font-size: 14px;}
+
+}
+
+
+
+
+@media ( max-width:800px ){
+header nav div{
+  justify-content: center;
+}
+header nav div .logo{
+  margin: auto;
+}
+header nav div li{
+  display: none;
+}
+header .head .head1 img {
+  display: none;
+}
+header .head .head1 .head2{
+  width: 100%;
+}
+header .head .head1{
+  padding-top: 45px;  
+}
+.list li{
+  display: block;
+  text-align: center;
+}
+.designs .col-33{
+  width: 100%;
+}
+.myblog .myblog1 .cards .card{
+  width: 100%;
+}
+.designs .col-33 .w-100 {
+  height: fit-content;
+}
+footer{
+  display: block;
+  text-align: center;
+}
+footer li 
+{display: block;
+}
+.myblog .myblog1 .cards .card .w-100 {
+  height: fit-content;
+}
+}
+
+
+/*# sourceMappingURL=app.css.map */
