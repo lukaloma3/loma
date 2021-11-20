@@ -1,0 +1,16 @@
+.container{
+width: 1700px;
+margin: auto;
+}
+body{
+    height: 100vh;
+}
+.row1{
+width: 90%;
+}
+a{
+    text-decoration: none;
+}
+.card1{
+    width: 33.3%;
+}
