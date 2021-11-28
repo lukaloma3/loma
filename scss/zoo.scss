@@ -129,7 +129,12 @@ padding-bottom: 13px;
 
 .carusel{
 
-    &::after{
+
+
+
+
+
+&::after{
 content: "";
 height: 1px;
 width: 100%;
@@ -151,13 +156,17 @@ z-index: 8;
 .photos{
 margin-top: 30px;
 
-
-
+.row>* {
+   
+     padding-right:0 !important; 
+     padding-left: 0 !important; 
+    
+}
 .card{
 border: 1px solid #d2d2d2;
 border-radius: 0;
 height: 110px;
-width: 200px;
+width: 209px;
 margin-bottom: 31px;
 img{
 height: 100%;

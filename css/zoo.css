@@ -123,11 +123,15 @@ nav .dropdown-menu a {
 .photos {
   margin-top: 30px;
 }
+.photos .row > * {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
 .photos .card {
   border: 1px solid #d2d2d2;
   border-radius: 0;
   height: 110px;
-  width: 200px;
+  width: 209px;
   margin-bottom: 31px;
 }
 .photos .card img {
