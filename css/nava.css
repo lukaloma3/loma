@@ -36,6 +36,44 @@ header .back33 {
   top: 0;
   left: 0;
 }
+header .back33 .headtext2 {
+  text-align: center;
+  color: #f9fafe;
+  width: 100%;
+  height: 100%;
+}
+header .back33 .headtext2 .tt2 h1 {
+  font-size: 72px;
+  font-family: raleway;
+}
+header .back33 .headtext2 .tt2 h5 {
+  font-size: 30px;
+  font-family: opensans;
+}
+header .back33 .headtext2 form {
+  margin-top: 85px;
+  margin-bottom: 32px;
+}
+header .back33 .headtext2 form input {
+  height: 42px;
+  width: 570px;
+  border: 0;
+  border-top-right-radius: 0px !important;
+  border-top-left-radius: 5 !important;
+  border-bottom-left-radius: 5 !important;
+  border-bottom-right-radius: 0px !important;
+}
+header .back33 .headtext2 form button {
+  border: 0;
+  border-top-right-radius: 5px !important;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 5px !important;
+  width: 200px;
+  margin-left: -10px;
+  background-color: #e7434e;
+  color: white;
+}
 header .back33 .headtext {
   font-family: opensans;
   position: absolute;
@@ -352,6 +390,29 @@ footer .foot li div img {
 @media (max-width: 992px) {
   .tt3 {
     border-left: none !important;
+  }
+
+  .tt2 h1 {
+    font-size: 40px !important;
+  }
+  .tt2 h5 {
+    font-size: 20px !important;
+  }
+  .tt2 form {
+    margin-top: 30px !important;
+  }
+  .tt2 form input {
+    width: 100px !important;
+  }
+  .tt2 form button {
+    width: 140px !important;
+    padding: 5px;
+  }
+}
+@media (max-width: 460px) {
+  .tt2 form {
+    padding: 5px;
+    margin-bottom: 400px !important;
   }
 }
 
