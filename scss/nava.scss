@@ -11,15 +11,71 @@
 .container2{
 width: 1200px;
 margin: auto;
-max-width: 100%;
+max-width: 100% !important;
 padding: 15px;
 }
+
+.container3{
+    width: 1200px;
+    margin: auto;
+    max-width: 100% !important;
+    padding: 15px;
+}
+
+
 header{
 height: 850px;
 background-image: url('../img/eBJIgrh3TCeHf7unLQ5e_sailing-5\ \(1\).png');
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
+position: relative;
+
+
+.back33{
+position: absolute;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.308);
+top: 0;
+left: 0;
+
+
+
+.headtext{
+    font-family:opensans ;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    filter: drop-shadow(0 0 15px rgba(52,52,52,0.15));
+    .container3{
+       
+background-color: white;
+border-radius: 5px;
+.tt3{
+border-left: 1px solid #717171;
+margin-top:11px ;
+margin-bottom: 19px;
+
+}
+h2{
+color: #343434;
+text-align: center;
+padding-top: 2px !important;
+}
+
+h3{
+color: #717171;
+text-align: center;
+padding-bottom: -1px !important;
+}
+
+
+}}
+}
+
 
 nav{
 padding-top: 33px !important;
@@ -317,8 +373,6 @@ transform: translateY(-50%);
 
 
 
-
-
 @media (max-width: 800px){
    .boat{
 h1{font-size:40px !important;}
@@ -333,3 +387,80 @@ h3{font-size: 20px !important;}
     max-width: 1524px;
 }
 }
+
+@media (max-width: 1220px){
+    .container3{
+     width:1020px ;
+    }
+
+    }
+
+    @media (max-width: 1050px){
+        .container3{
+         width:950px ;
+        }
+        }
+
+
+
+        @media (max-width: 1000px){
+            .container3{
+             width:800px ;
+            }
+            }
+
+
+            @media (max-width: 830px){
+                .container3{
+                 width:630px ;
+                }
+                }
+
+
+
+                @media (max-width: 660px){
+                    .container3{
+                     width:460px ;
+                    }
+                    }
+
+                    @media (max-width: 490px){
+                        .container3{
+                         width:390px ;
+                        }
+                        }
+
+                        @media (max-width: 420px){
+                            .container3{
+                             width:300px ;
+                            }
+                            }
+
+
+@media (max-width: 768px){
+.cards1{
+margin-top: 250px;
+
+}
+}            
+
+@media (max-width:992px){
+    
+        .tt3{
+            border-left: 0;
+        }
+
+
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
