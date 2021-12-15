@@ -24,6 +24,7 @@ let p = "Some quick example text to build on the card title and make up the bulk
 
 let a = "Go somewhere" ;
 
+let aherf = "#" ;
 
 document.getElementById("row").innerHTML =  (
 
@@ -33,7 +34,7 @@ document.getElementById("row").innerHTML =  (
   <div class="card-body">
     <h5 class="card-title">${h5}</h5>
     <p class="card-text">${p}</p>
-    <a href="#" class="btn btn-primary">${a}</a>
+    <a href="${aherf}" class="btn btn-primary">${a}</a>
   </div>
 </div>
     `
