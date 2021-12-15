@@ -1,16 +1,16 @@
 
 
-function temp(celsus, selector) {
+function temp(far, selector) {
 
 let k = 5/9;
 
-let far = k * celsus;
+let celsus = k * (far-32);
 
-document.getElementById("text").innerHTML = far;
-console.log(far)
+document.getElementById("text").innerHTML = celsus;
+console.log(celsus)
 }
 
-temp(18, "text")
+temp(50, "text")
 
 
 
