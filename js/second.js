@@ -5,7 +5,7 @@ let k = 5/9;
 
 let celsus = k * (far-32);
 
-document.getElementById("text").innerHTML = celsus;
+document.getElementById(selector).innerHTML = celsus;
 console.log(celsus)
 }
 temp(50, "text")
@@ -23,16 +23,17 @@ change();
 
 
 
-
-
 let x = "lomadze 333";
 function h(t){
-let g = x.toString();
-console.log(g.replace(g, t))
-document.getElementById("text6").innerHTML = g.replace(g, t);
+ // let g = x.toString();
+ // let p = g.replace(g, t)
+ x = t;
+return x;
 };
- 
-h("luka");
+console.log(h({firstName:"luka", lastName:"lomadze" }));
+document.getElementById("text6").innerHTML = h(["luka", "lomadze"] );
+
+
 
 //2
 
@@ -44,6 +45,11 @@ document.getElementById("text2").innerHTML = n2;
 }
 
 f2();
+
+
+
+
+
 
 //3
 
@@ -63,6 +69,10 @@ document.getElementById(selector).innerHTML = card;
 cards("https://3cthinkers.com/en/wp-content/uploads/2017/03/html-css-js.jpg", "Card title", "Some quick example text to build on the card title and make up the bulk of the card's content.", "#", "Go somewhere", "card1");
 cards("https://3cthinkers.com/en/wp-content/uploads/2017/03/html-css-js.jpg", "Card title", "Some quick example text to build on the card title and make up the bulk of the card's content.", "#", "Go somewhere", "card2");
 cards("https://3cthinkers.com/en/wp-content/uploads/2017/03/html-css-js.jpg", "Card title", "Some quick example text to build on the card title and make up the bulk of the card's content.", "#", "Go somewhere", "card3");
+
+
+
+
 
 //4
 
