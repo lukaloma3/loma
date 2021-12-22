@@ -1,7 +1,7 @@
 let product = {
 weight:"2kg",
 count:30,
-price:"20gel",
+price:"20GEL",
 img:"img/html-css-js.jpg",
 
 
@@ -9,29 +9,28 @@ img:"img/html-css-js.jpg",
 productfunc:function(){
 
 if(this.count == 0){
-return `<div>მარაგი ამოწურულია</div>
-`;
+return `<div class="bg-danger pt-2 pb-2">მარაგი ამოწურულია</div>`;
 }
-return `<div>${product.count}</div>`;
-
+return `<div class="bg-success pt-2 pb-2  ">მარაგშია  ${product.count} ცალი</div>`;
 },
 
 };
 
 console.log(product);
 
-
+product.count = 0;
+product.price = "50GEL";
 
 
 let producti =
 
 `
-     <div class="card col-lg-4" style=" margin:auto;">
-      <img src="${product.img}" class="card-img-top w-100" alt="...">
+     <div class="card col-lg-4" style=" margin:auto;">  
+     <a href=""><img src="${product.img}" class="card-img-top w-100" alt="..."></a> 
       <div class="card-body">
-      <h5 class="card-title">${product.weight} </h5>
-      <h5 class="card-title"> ${product.count}  </h5>
-      <h5 class="card-title"> ${product.price}</h5>
+      <h5 class="card-title">მასა ${product.weight} </h5>
+      
+      <h5 class="card-title">ფასი  ${product.price}</h5>
       
       <p class="card-text">${product.productfunc()}</p>
             
@@ -43,13 +42,15 @@ obj.innerHTML = producti;
 
 
 
+obj2.innerHTML = producti;
+document.getElementById("obj2").innerHTML = producti;
+let k = Object.keys(product)
+let v = Object.values(product)
+let a = Object.entries(product)
 
-
-
-
-
-
-
+console.log(k)
+console.log(v)
+console.log(a)
 
 
 
