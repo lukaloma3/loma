@@ -18,9 +18,9 @@ return `<div class="bg-success pt-2 pb-2  ">მარაგშია  ${product.
 
 console.log(product);
 
+
 product.count = 0;
 product.price = "50GEL";
-
 
 let producti =
 
@@ -36,14 +36,14 @@ let producti =
             
    </div>
       </div>
- `;
+`;
 
-obj.innerHTML = producti;
+document.getElementById("obj").innerHTML = producti;
 
 
 
-obj2.innerHTML = producti;
-document.getElementById("obj2").innerHTML = producti;
+
+
 let k = Object.keys(product)
 let v = Object.values(product)
 let a = Object.entries(product)
