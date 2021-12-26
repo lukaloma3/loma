@@ -1,236 +1,66 @@
-let product = {
-weight:"2kg",
-count:30,
-price:"20GEL",
-img:"img/html-css-js.jpg",
+
+//ford Mustang გამოდის 5.4 v8 ტიპის ძრავით, ასევე მისი მოდიფიკაციებია Boss 302 , shelby ,საუკეთესო მოდელები გამოდიოდა2018 დან 2021 წლამდე
+
+let auto = ["Ford", "Mustang", 5.4, ["V6", "V8"], {variant:"boss 302", variant2:"Shelby", variant3:"Saalen", year:["2018 , 2022"]}];
+
+let years = auto[4].year[0].split(" ")
+
+let text = auto[0] + " " + auto[1] + " გამოდის " + auto[2] + " " + auto[3][1]  + " ტიპის ძრავით, ასევე მისი მოდიფიკაციებია "  + auto[4].variant + " , " + auto[4].variant2 + " საუკეთესო მოდელები გამოდიოდა " + years[0] + " დან "  + (years[2] - 1 ) + " წლამდე.";
+
+console.log(text)
+
+document.getElementById("ford").innerHTML = text;
 
 
+//1
+let n = [14, 584, 447, 5777, 1200, 65, 46354, 875, 86453, 546, 20, 30, 642]
+console.log(n)
 
-productfunc:function(){
+//2
+n.push("new1")
+console.log(n)
 
-if(this.count == 0){
-return `<div class="bg-danger pt-2 pb-2">მარაგი ამოწურულია</div>`;
+n.unshift("new2")
+console.log(n)
+
+//3
+n.pop()
+console.log(n)
+
+n.shift()
+console.log(n)
+
+//4
+let x = "";
+for(let i = 0; i < n.length; i++) {
+  x += n[i] + "<br>";
+   
 }
-return `<div class="bg-success pt-2 pb-2  ">მარაგშია  ${product.count} ცალი</div>`;
-},
+document.getElementById("arr").innerHTML = x;
 
-};
+//5
 
-console.log(product);
+ n.splice(5, 0, "front-end")
+console.log(n)
 
+let y = "";
+for(let i = 0; i < n.length; i++) {
+  y += n[i] + "<br>";
+  n.splice(5, 1, "back-end") 
+}
+document.getElementById("arr2").innerHTML = y;
 
-product.count = 0;
-product.price = "50GEL";
 
-let producti =
 
-`
-     <div class="card col-lg-4" style=" margin:auto;">  
-     <a href=""><img src="${product.img}" class="card-img-top w-100" alt="..."></a> 
-      <div class="card-body">
-      <h5 class="card-title">მასა ${product.weight} </h5>
-      
-      <h5 class="card-title">ფასი  ${product.price}</h5>
-      
-      <p class="card-text">${product.productfunc()}</p>
-            
-   </div>
-      </div>
-`;
+//6
+let bn = n.every(b=>{
+return b > 10
+})
+console.log(bn)
+   
 
-document.getElementById("obj").innerHTML = producti;
-
-
-
-
-
-let k = Object.keys(product)
-let v = Object.values(product)
-let a = Object.entries(product)
-
-console.log(k)
-console.log(v)
-console.log(a)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// //0
-// function temp(far, selector) {
-
-// let k = 5/9;
-
-// let celsus = k * (far-32);
-
-// document.getElementById(selector).innerHTML = celsus;
-// console.log(celsus)
-// }
-// temp(50, "text")
-
-
-// //1
-
-// let me = "მე ვსაწვლობ frontend პროგამირებას."
-// function change(){
-// let changed = me.replace("frontend", "backend")
-// console.log(changed)
-// document.getElementById("text5").innerHTML = changed;
-// };
-// change();
-
-
-
-// let x = "lomadze 333";
-// h(65);
-// function h(t){
-//  // let g = x.toString();
-//  // let p = g.replace(g, t)
-//  x = t;
-// return x;
-// };
-// console.log(h({firstName:"luka", lastName:"lomadze" }));
-// document.getElementById("text6").innerHTML = h(["luka", "lomadze"] );
-
-
-
-// //2
-
-// function f2(){
-// let n1 = "HTML is the code that is used to structure a web page and its content."
-// let n2 = n1.replace("HTML", "").trim();
-// console.log(n2);
-// document.getElementById("text2").innerHTML = n2;
-// }
-
-// f2();
-
-
-
-
-
-
-// //3
-
-// function cards( img, h5, p, aherf, a, selector) {
-
-//     let card =`<div class="card " style=" margin:auto;">
-//    <img src="${img}" class="card-img-top w-100" alt="...">
-//    <div class="card-body">
-//     <h5 class="card-title">${h5}</h5>
-//     <p class="card-text">${p}</p>
-//     <a href="${aherf}" class="btn btn-primary">${a}</a>
-//     </div>
-// </div>`;
-
-// document.getElementById(selector).innerHTML = card;
-// };
-// cards("https://3cthinkers.com/en/wp-content/uploads/2017/03/html-css-js.jpg", "Card title", "Some quick example text to build on the card title and make up the bulk of the card's content.", "#", "Go somewhere", "card1");
-// cards("https://3cthinkers.com/en/wp-content/uploads/2017/03/html-css-js.jpg", "Card title", "Some quick example text to build on the card title and make up the bulk of the card's content.", "#", "Go somewhere", "card2");
-// cards("https://3cthinkers.com/en/wp-content/uploads/2017/03/html-css-js.jpg", "Card title", "Some quick example text to build on the card title and make up the bulk of the card's content.", "#", "Go somewhere", "card3");
-
-
-
-
-
-// //4
-
-// function n4(d){
-// let a = 57.23556;
-// let b = 10.65476;
-// let c = a * b;
-
-// console.log(c.toFixed(d));
-// document.getElementById("text3").innerHTML = c.toFixed(d);
-// console.log(c.toPrecision(d))
-// document.getElementById("text4").innerHTML = c.toPrecision(d);
-// }
-// n4()
-// n4(1)
-// n4(2);
-// n4(3);
-// n4(4);
-// n4(5);
-
-
-
-// let text = "მე ვსწავლობ itაკადემიაში";
-
-// console.log(text.slice(3, -13));
-
-// console.log(text.replace("itაკადემიაში", "frontend" ));
- 
-// console.log(text.split(" "));
-
-// console.log(text.includes("მე"));
-
-// console.log(text.startsWith("მე"));
-
-// console.log(text.toUpperCase());
-
-// let text1 = "       მე ვსწავლობ itაკადემიაში         ";
-
-// console.log(text1.trim());
-
-
-
-// let h5 = "Card title";
-
-// let p = "Some quick example text to build on the card title and make up the bulk of the card's content." ;
-
-// let a = "Go somewhere" ;
-
-// let aherf = "#" ;
-
-// document.getElementById("row").innerHTML =  (
-
-//     `
-//     <div class="card col-lg-4" style="width: 18rem; margin:auto;">
-//   <img src="https://cdn.jumeirah.com/-/mediadh/dh/hospitality/jumeirah/hotels/dubai/burj-al-arab-jumeirah/hero/burj-al-arab-profile-exterior_6-4_landscape/burj-al-arab-profile-exterior_6-4_landscape__portrait.jpg?w=600" class="card-img-top w-100" alt="...">
-//   <div class="card-body">
-//     <h5 class="card-title">${h5}</h5>
-//     <p class="card-text">${p}</p>
-//     <a href="${aherf}" class="btn btn-primary">${a}</a>
-//   </div>
-// </div>
-//     `
-// );
-
-
-// let num =  555555555 ;
-// let array =  ["luka", "lomadze"] ;
-// let string =  "luka lomadze" ;
-// let boo1 =  true ; let boo2 =  false ;
-// let object =  {firstName:"luka", lastName:"lomadze" } ;
-// let func =  function( )  {} ;
-// console.log( typeof(num) );
-// document.getElementById("text").innerHTML = string ;
-// console.log(object);
-// console.log(object.lastName);
-// console.log(array); 
-// console.log(array[0]);
-// console.log(array[0], object.lastName); 
-// console.log( 5 == 5 )
-// console.log( object.lastName == array[1] )
-// let pi = Math.PI; console.log(p)
-// let newdate = new Date ;
-// console.log(newdate)
-// console.log(newdate.getFullYear())
+//7
+let an = n.some(a=>{
+return a > 4768
+})
+console.log(an)
