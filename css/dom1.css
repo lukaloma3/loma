@@ -1,0 +1,46 @@
+.changecolor{
+height: 75px;
+width: 75px;
+border-radius:50% ;
+border: solid 3px white;
+margin: 25px;
+
+
+}
+
+.incon{
+text-align: center;
+
+padding: 30px;
+}
+
+input{
+border-right: 0 !important;
+border: 0;
+border-bottom: 5px solid black;
+padding: 10px;
+text-decoration: 0;
+width: 100%;
+outline: 0;
+}
+
+.incon h3{
+    padding-bottom: 20px;
+}
+
+span{
+    background-color: white !important;
+border: 0 !important;
+border-bottom: 5px solid black !important;
+padding: 10px;
+}
+
+.bi{
+padding: 10px;
+
+}
+
+
+
+
+
