@@ -22,21 +22,6 @@ if (this.classList[1] == "bi-eye-slash-fill" ) {
 })
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 let change = document.querySelectorAll(".changecolor");
 let body = document.querySelector("body");
 
