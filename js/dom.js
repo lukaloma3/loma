@@ -20,3 +20,25 @@ icon2.addEventListener("click", function(){
 })
     
 
+
+
+
+// let h1 = document.querySelector('h1');
+// let p =  h1.nextElementSibling;
+// let icon = p.parentElement.nextElementSibling;
+
+// h1.addEventListener('click', function () {
+//     if (p.classList != null && icon.classList[1] != null) {
+//         p.classList.replace('d-none', 'd-block')
+// icon.classList[1].replace('d-none', 'd-block')
+//     }
+
+// })
+
+// icon.addEventListener('click', function () {
+//     if (p.classList != null && this.classList[1] != null) {
+//         p.classList.replace('d-none', 'd-block')
+//     this.classList[1].replace('d-block', 'd-none')
+//     }
+    
+//     })
