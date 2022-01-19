@@ -42,3 +42,26 @@ icon2.addEventListener("click", function(){
 //     }
     
 //     })
+
+
+
+
+
+// let items = document.querySelectorAll('.carusel1')
+// let bts = document.querySelectorAll('.bt')
+
+
+// bts.forEach((el, i) => {
+ 
+// items.forEach(els => {
+//     els.classList.remove('.selitem')
+// });
+
+// bts.forEach(els => {
+//     els.classList.remove('.selbt')
+// });
+// items[i].classList.add('.selitem')
+// bts.classList.add('.selbt')
+
+
+// });
