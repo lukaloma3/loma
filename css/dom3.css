@@ -10,3 +10,30 @@ overflow: hidden;
 background-color:rgb(21, 255, 0) ;
 }
 
+.box3{
+height: 500px;
+margin: 0;
+padding: 0;
+position: relative;
+}
+.box1{
+background-color: blue;
+
+position: absolute;
+left: 0;
+}
+.box2{
+background-color: red;
+position: absolute;
+right: 0;
+}
+
+.click1{
+right: 0;
+
+
+}
+.click2{
+left: 0;
+
+}

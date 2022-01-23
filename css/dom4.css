@@ -1,0 +1,227 @@
+header{
+height: 600px;
+background-image: url(" https://www.teknos.com/globalassets/teknos.com/industrial-coatings/special-applications/road-marking-and-parking-lots/road-marking.jpg") ;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+
+
+
+}
+
+.back1{
+width: 100%;
+height: 100%;
+position: absolute;
+background-color: rgba(0, 0, 0, 0.5);
+z-index: 4;
+
+
+}
+
+.nav1{
+display: flex;
+justify-content: space-between;
+padding: 20px 0;
+
+}
+
+nav{
+background-color: rgba(0, 0, 0, 0.05);
+color: white;
+position: fixed;
+width: 100%;
+transition: all 0.5s;
+padding: 20px;
+z-index: 78888;
+}
+
+body{
+height: 3000px;
+
+}
+
+
+.scr{
+color: black;
+background-color: cornflowerblue;
+padding: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.test{
+    height: 500px;
+    width: 100%;
+position: relative;
+margin-top: 100px;
+}
+
+.circle{
+height: 30px;
+width: 30px;
+background-color: black;
+border-radius: 50%;
+position: absolute;
+top: 0;
+left: 0;
+animation: domanim 10s infinite;
+cursor: pointer;
+
+}
+
+@keyframes domanim {
+0% {
+    top: 0;
+    left: 0;  
+}
+25% {
+    top: 67%;
+    left: 8%;  
+
+}
+40% {
+    top: 6%;
+    left: 73%;  
+
+}
+
+50% {
+    top: 89%;
+    left: 97%;
+}
+75% {
+    top: 98%;
+    left: 35%;  
+}
+100% {
+top: 0;
+left: 0;
+
+}
+}
+
+
+
+
+
+
+
+.box3{
+   min-height: 500px;
+    position: relative;
+    background-color: black;
+    margin-top: 100px;
+border-radius: 10px;
+box-shadow: 1px 1px 10px black;
+overflow: hidden;
+
+    }
+.box1{
+  background-color: white;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    z-index: 2;
+    transition: all 1s;
+    box-shadow: 1px 1px 5px black;
+   display: flex;
+   align-items: center;
+
+
+    }
+.box2{
+    background-color: white;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    transition: all 1s;
+    box-shadow: 1px 1px 5px black;
+    display: flex;
+    align-items: center;
+    }
+    
+.click1{
+    transform: translateX(140%);
+    
+    
+    }
+.click2{
+    transform: translateX(-71.4285%);
+    
+    } 
+
+.texts{
+
+text-align: center;
+padding: 30px 20px;
+margin: auto;
+transition: all 1s;
+
+}
+
+.sign{
+padding: 7px 40px;
+background-color: #4a6ee2;
+border-radius: 20px;
+width: fit-content;
+margin: auto;
+}
+
+.form-control{
+margin-bottom: 15px !important;
+border-radius: 7px;
+
+}
+
+button{
+display: block;
+margin-top: 15px !important;
+border: 0;
+}
+
+a{
+color: black;
+text-decoration: 0;
+padding-bottom: 7px;
+border-bottom: 1px solid black;
+}
+
+h6, p{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.ss, .ts{
+    transition: all 7s;
+}
+
