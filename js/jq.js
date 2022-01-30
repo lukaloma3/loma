@@ -8,11 +8,14 @@ $('.ic').click(function (e) {
     $('.contact3').animate({
         'width': '600px',
        'border-radius': '0',
-
+       'max-width': '100%',
+      
+       
 
     },500,function() {
         $('.contact3').animate({
-            'height': '100%',
+            'height': '100vh', 
+           
         }, 1000, function () {
            $('.contact1').slideDown();
         })
