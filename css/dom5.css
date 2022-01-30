@@ -1,0 +1,23 @@
+.p1{
+height: 100vh;
+}
+
+.active{
+border: black 1px solid;
+}
+
+p{
+    cursor: pointer;
+}
+
+.f1{
+display: none;
+}
+
+.current{
+display: flex;
+}
+
+.corans{
+border: 3px green solid;
+}

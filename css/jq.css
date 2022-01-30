@@ -1,0 +1,50 @@
+/* .contact1{
+background-color: #f72f4e;
+width: 600px;
+} */
+
+
+.form-control:not(button){
+outline: 0;
+background-color: #c6263e !important;
+
+}
+
+
+i{
+font-size:xx-large;
+cursor: pointer;
+
+}
+
+.contact3{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+background-color: #f72f4e;
+
+padding-top: 24px;
+position: absolute;
+left: 50%;
+bottom: 20px;
+transform: translateX(-50%);
+
+
+
+}
+
+/* 
+ .ic{
+width: 600px;
+border-radius: 0;
+height: 90%;
+
+
+} */ 
+
+
+
+
+
+
+

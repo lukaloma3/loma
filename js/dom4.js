@@ -27,6 +27,8 @@ console.log( x)
 })
 
 
+
+
 let b1 = document.querySelector('.box1')
 let b2 = document.querySelector('.box2')
 let sign = document.querySelectorAll('.sign')

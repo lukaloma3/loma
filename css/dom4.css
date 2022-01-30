@@ -178,7 +178,6 @@ overflow: hidden;
     }
 .click2{
     transform: translateX(-71.4285%);
-    
     } 
 
 .texts{
@@ -221,7 +220,5 @@ h6, p{
     color: rgba(0, 0, 0, 0.5);
 }
 
-.ss, .ts{
-    transition: all 7s;
-}
+
 
