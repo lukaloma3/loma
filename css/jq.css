@@ -26,9 +26,16 @@ transform: translateX(-50%);
 max-width: 100%;
 height: fit-content;
 
+} 
+
+.switchs{
+padding: 7px;
+background-color: red;
+border-radius: 10px;
+cursor: pointer;
+width: fit-content;
+
 }
-
-
 
 
 

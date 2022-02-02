@@ -1,0 +1,54 @@
+.inputs{
+max-width: 100%;
+width: 600px;
+margin-top: 300px;
+padding: 20px;
+border-radius: 25px;
+
+
+
+}
+
+.switch1{
+
+height: 50px;
+width: 100px;
+background-color: rgb(92, 92, 92);
+border-radius: 25px;
+position: relative;
+padding: 5px;
+}
+
+.ball{
+width: 40px;
+height: 40px;
+border-radius: 20px;
+background-color: white;
+position: absolute;
+left: 5px;
+top: 5px;
+transition: all 0.3s;
+
+
+}
+
+.switchball{
+left: 55px;
+
+
+}
+
+.box{
+width: 14px;
+height: 50px;
+background-color: red;
+
+}
+
+.text{
+    display: flex;
+}
+
+
+
+

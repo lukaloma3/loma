@@ -1,7 +1,7 @@
 $('.ic2').fadeOut(0)
 $('.contact1').slideUp(0);
  
-$(function () {
+ $(function () {
 
 $('.ic').click(function (e) { 
     e.preventDefault();
@@ -50,8 +50,74 @@ $('.ic2').fadeIn(100)
 
 
 
+$('.switchs').click(function (e) { 
+    e.preventDefault();
+    $('.col-lg-4').toggleClass('col-lg-12'),
+    $('.col-lg-1').toggleClass('col-lg-4')
+
+    $('.a1').toggleClass('d-none');
+    $('.a2').toggleClass('d-none');
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
