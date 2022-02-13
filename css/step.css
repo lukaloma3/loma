@@ -1,0 +1,128 @@
+
+.r{
+height: 10px;
+background-color: blue;
+
+}
+
+.step{
+width: 50px;
+height: 50px;
+border-radius: 25px;
+background-color: white;
+position: absolute;
+top: -185%;
+border: 5px solid blue;
+text-align: center;
+padding: 7px;
+cursor: pointer;
+}
+
+.r1{
+left: 20%;
+
+}
+
+
+.r2{
+left: 50%;
+transform: translateX(-50%);
+
+}
+
+
+.r3{
+right: 20%;
+
+}
+
+
+
+
+
+
+
+.steps1{
+position: relative;
+
+
+}
+
+
+
+.content{
+display: none;
+
+}
+
+.active2{
+display: block;
+
+}
+
+.active1{
+background-color: blue;
+color: white;
+
+}
+
+
+
+.contents{
+width: 100%;
+background-color: tomato;
+
+height: 300px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+padding: 50px;
+
+
+}
+
+
+.inp2{
+width: 100%;
+padding: 15px;
+border: 0;
+outline: 0;
+border-radius: 25px;
+
+
+
+}
+
+
+
+
+.btns{
+position: relative;
+
+
+}
+
+
+.prev1{
+position: absolute;
+top:0 ;
+left:0 ;
+
+
+}
+.next1{
+position: absolute;
+top:0 ;
+right: 0;
+}
+
+.finish1{
+position: absolute;
+top:0 ;
+right: 0;
+
+
+}
+
+
