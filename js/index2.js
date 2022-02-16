@@ -38,7 +38,7 @@ let ball = document.querySelector('.ball')
 let body = document.querySelector('body')
 let switch1 = document.querySelector('.switch1')
 
-//localStorage.setItem('dark', false)
+
 
 switch1.addEventListener('click', function () {
     ball.classList.toggle('switchball')
@@ -61,17 +61,24 @@ body.classList.toggle('dark')
 
 
 }
-let i = 5
+let i = 10
 let modal = document.querySelector('.modal1')
 let background2 = document.querySelector('.background2')
 function loadbody() {
+    
+setTimeout(
+function () {
     modal.classList.replace('d-none', 'd-block')
     background2.classList.replace('d-none', 'd-block')
+  
+},5000)
+
+
  setTimeout(
  function () {
     modal.classList.add('d-none')
     background2.classList.add('d-none')
- },5000)
+ },10000)
  setInterval(
     function () {
         document.querySelector('h4').innerHTML = `დაიხურება ${--i} წამში` 
